@@ -1,0 +1,59 @@
+body {
+    background-image: url('background.png');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    height: max-content;
+    width: 100vw;
+}
+
+
+#info {
+    border-color: #01aef0;
+    background: #01aef0;
+    height: 400px;
+}
+
+#dice {
+    height: 800px;
+    border-color: green;
+}
+#menu {
+    height: 300px;
+    border-color: #f36523;
+    background: #f3652377;
+}
+.menu-button {
+    width: 265px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #f36523;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.standard-border {
+    border-radius: 30px;
+    border-width: 4px;
+    border-style: groove;
+}
+
+.side-container {
+    width: 300px;
+}
+.vert-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
